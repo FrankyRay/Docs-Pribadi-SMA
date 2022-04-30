@@ -2,6 +2,7 @@ site_name: Dokumentasi SMA
 
 nav:
   - Home: index.md
+  - Misc: mkdocs.md
   - Matematika:
     - Sudut Trigonometri [10]: math/trigonometri.md
 
