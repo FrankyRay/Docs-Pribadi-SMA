@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
-         <lastmod>2022-04-30</lastmod>
+         <loc>https://example.com/</loc>
+         <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2022-04-30</lastmod>
+         <loc>https://example.com/mkdocs/</loc>
+         <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2022-04-30</lastmod>
+         <loc>https://example.com/math/polinomial/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/math/trigonometri/</loc>
+         <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
