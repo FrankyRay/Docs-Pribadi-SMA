@@ -1,10 +1,15 @@
 site_name: Dokumentasi SMA
+site_url: https://example.com/
+
+repo_url: https://github.com/FrankyRay/Docs-Pribadi-SMA
+repo_name: FrankyRay/Docs-Pribadi-SMA
 
 nav:
   - Home: index.md
   - Misc: mkdocs.md
   - Matematika:
     - Sudut Trigonometri [10]: math/trigonometri.md
+    - Polinomial [11]: math/polinomial.md
 
 theme:
   name: material
@@ -32,6 +37,17 @@ theme:
 
 markdown_extensions:
   - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true 
   - pymdownx.arithmatex:
       generic: true
 
