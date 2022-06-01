@@ -25,7 +25,7 @@ $$
 
 $$
 \begin{aligned}
-    \lim_{x \rightarrow 3} \frac{x^2-2x-15}{x+3} &= \frac{(x-5)(x+3)}{(x+3)}
+    \lim_{x \rightarrow 3} \frac{x^2-2x-15}{x+3} &= \frac{(x-5)(x+3)}{(x+3)} \\
     &= x-5 \\
     &= 3-5 = -2
 \end{aligned}
@@ -357,3 +357,77 @@ $$
 ### Soal 9b
 
 \( \int (2x^3 + 2x^2 - 4) dx = \frac{1}{2}x^4 + \frac{2}{3}x^3 - 4x + C \)
+
+### Soal 9c
+
+\( \int (x-3)(x^2 - 6x + 1)^3 dx = \int (x^2 - 6x + 1)^3(x-3) dx \)
+
+**Misal:**
+
+$$
+\begin{aligned}
+    u  &= x^2 - 6x + 1 \\
+    du &= (2x - 6) dx \\
+    du &= 2 (x - 3) dx \\
+    (x - 3) dx &= \frac{1}{2} du
+\end{aligned}
+$$
+
+**Maka:**
+
+$$
+\begin{aligned}
+    \int u^3 &\times \frac{1}{2} du \\
+    &= \frac{1}{2} \int u^3 du \\
+    &= \frac{1}{2} \times \frac{1}{4} u^4 + C \\
+    &= \frac{1}{8} (x^2 -6x + 1)^4 + C
+\end{aligned}
+$$
+
+### Soal 9d
+
+\( \int 6x \sqrt{3x^2+8} dx = \int (6x)(3x^2 + 8)^{\frac{1}{2}} dx \)
+
+**Misal:**
+
+$$
+\begin{aligned}
+    u  &= 3x^2 + 8 \\
+    du &= (6x) dx \\
+    (6x) dx &= du
+\end{aligned}
+$$
+
+**Maka:**
+
+$$
+\begin{aligned}
+    \int u^{\frac{1}{2}} &\times du \\
+    &= \frac{1}{\frac{3}{2}} u^{\frac{3}{2}} + C \\
+    &= \frac{2}{3} (3x^2 + 8)^{\frac{3}{2}} + C
+\end{aligned}
+$$
+
+## 10. Integral Tentu
+
+### Soal 10a
+
+$$
+\begin{aligned}
+    \int_1^2 (3x^2 + 8x + 1) dx &= [x^3 + 4x^2 + x]_1^2 \\
+    &= (2^3 + 4(2)^2 + 2) - (1^3 + 4(1)^2 + 1) \\
+    &= (8 + 16 + 2) - (1 + 4 + 1) \\
+    &= 26 - 6 = 20
+\end{aligned}
+$$
+
+### Soal 10b
+
+$$
+\begin{aligned}
+    \int_{-1}^2 (3x^2 + 4x - 1) dx &= [x^3 + 2x^2 - x]_{-1}^2 \\
+    &= (2^3 + 2(2)^2 - 2) - ((-1)^3 + 2(-1)^2 - (-1)) \\
+    &= (8 + 8 - 2) - (-1 + 2 + 1) \\
+    &= 14 - 2 = 12
+\end{aligned}
+$$
