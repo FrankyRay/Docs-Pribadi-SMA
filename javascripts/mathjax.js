@@ -11,7 +11,7 @@ window.MathJax = {
   },
   chtml: {
     displayAlign: "left"
-  }
+  },
 };
 
 document$.subscribe(() => { 
