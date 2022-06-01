@@ -1,8 +1,4 @@
----
-title: [MTK] Polinomial
----
-
-## Polinomial
+# Polinomial
 
 Polinomial adalah bentuk aljabar yang terdiri dari beberapa suku dan memuat satu variable berpangkat positif
 
@@ -58,8 +54,8 @@ Jawab:
 
     $$
     \begin{aligned} 
-    p(x) + q(x) &= 5x^4 + 3x^3 - 5x^2 + 6 + 4x^3 - 2x^2 \\
-    &= 5x^4 + 7x^3 - 7x^2 + 6 \\
+        p(x) + q(x) &= 5x^4 + 3x^3 - 5x^2 + 6 + 4x^3 - 2x^2 \\
+        &= 5x^4 + 7x^3 - 7x^2 + 6 \\
     \end{aligned}
     $$
 
@@ -67,9 +63,9 @@ Jawab:
 
     $$
     \begin{aligned}
-    p(x) + q(x) &= 5x^4 + 3x^3 - 5x^2 + 6 - (4x^3 - 2x^2) \\
-    &= 5x^4 + 3x^3 - 5x^2 + 6 - 4x^3 + 2x^2 \\
-    &= 5x^4 - x^3 - 3x^2 + 6
+        p(x) + q(x) &= 5x^4 + 3x^3 - 5x^2 + 6 - (4x^3 - 2x^2) \\
+        &= 5x^4 + 3x^3 - 5x^2 + 6 - 4x^3 + 2x^2 \\
+        &= 5x^4 - x^3 - 3x^2 + 6
     \end{aligned}
     $$
 
@@ -77,9 +73,9 @@ Jawab:
 
     $$
     \begin{aligned}
-    p(x) \times q(x) &= \left(5x^4 + 3x^3 - 5x^2 + 6\right) \cdot \left(4x^3 - 2x^2\right)\\
-    &= 20x^7 - 10x^6 + 12x^6 - 6x^5 - 20x^5 + 10x^4 + 24x^3 - 12x^2\\
-    &= 20x^7 + 2x^6 - 26x^5 + 10x^4 + 24x^3 - 12x^2
+        p(x) \times q(x) &= \left(5x^4 + 3x^3 - 5x^2 + 6\right) \cdot \left(4x^3 - 2x^2\right)\\
+        &= 20x^7 - 10x^6 + 12x^6 - 6x^5 - 20x^5 + 10x^4 + 24x^3 - 12x^2\\
+        &= 20x^7 + 2x^6 - 26x^5 + 10x^4 + 24x^3 - 12x^2
     \end{aligned}
     $$
 

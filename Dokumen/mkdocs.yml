@@ -6,10 +6,16 @@ repo_name: FrankyRay/Docs-Pribadi-SMA
 
 nav:
   - Home: index.md
-  - Misc: mkdocs.md
-  - Matematika:
-    - Sudut Trigonometri [10]: math/trigonometri.md
-    - Polinomial [11]: math/polinomial.md
+  - Kelas 10:
+    - Matematika: 
+      - "[10] Sudut Trigonometri": math/trigonometri.md
+  - Kelas 11:
+    - Matematika Wajib:
+      - Polinomial: math/polinomial.md
+      - Interval: math/interval.md
+  - Misc:
+    - mkdocs.md
+    - MathJax: mathjax.md
 
 theme:
   name: material
@@ -18,9 +24,8 @@ theme:
     text: Open Sans
   features:
     - navigation.tabs
+    - navigation.sections
     - content.tabs.link
-  # icon:
-  #   repo: fontawesome/brands/git-alt
   palette: 
   - scheme: default
     primary: teal
