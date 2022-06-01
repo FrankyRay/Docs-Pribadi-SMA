@@ -13,6 +13,7 @@ nav:
     - Matematika Wajib:
       - Polinomial: math/polinomial.md
       - Interval: math/interval.md
+      - Kisi-Kisi Semester 2: math/kisi_11_s2.md
   - Misc:
     - mkdocs.md
     - MathJax: mathjax.md
